@@ -1,0 +1,305 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /* line 11, ../sass/media.scss */
+  header .phone {
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+  }
+
+  /* line 14, ../sass/media.scss */
+  body {
+    font-size: 18px;
+  }
+
+  /* line 17, ../sass/media.scss */
+  header .phone_back {
+    min-height: 360px;
+  }
+
+  /* line 21, ../sass/media.scss */
+  .section2 .box {
+    width: 100%;
+    margin: 35px 0;
+  }
+  /* line 25, ../sass/media.scss */
+  .section2 .side {
+    /*padding: 0;*/
+    text-align: center;
+  }
+  /* line 30, ../sass/media.scss */
+  .section2 .left.side {
+    top: -70px;
+  }
+  /* line 33, ../sass/media.scss */
+  .section2 input[type="text"] {
+    width: 220px;
+  }
+  /* line 36, ../sass/media.scss */
+  .section2 .right iframe {
+    margin: 0 auto 160px auto;
+  }
+  /* line 39, ../sass/media.scss */
+  .section2 .video {
+    width: 35%;
+    margin: 0 auto;
+  }
+  /* line 43, ../sass/media.scss */
+  .section2 .content {
+    width: 70%;
+    bottom: 0;
+    top: 45px;
+  }
+
+  /* line 49, ../sass/media.scss */
+  footer ul {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* line 54, ../sass/media.scss */
+  header .phone_back {
+    padding: 110px 0 0 60px;
+  }
+  /* line 57, ../sass/media.scss */
+  header .phone {
+    background-position: 75px 75px;
+  }
+  /* line 59, ../sass/media.scss */
+  header .phone:before {
+    position: relative;
+    top: 75px;
+    left: 75px;
+  }
+
+  /* line 66, ../sass/media.scss */
+  .section1 {
+    width: 100%;
+  }
+
+  /* line 69, ../sass/media.scss */
+  .section3 .image {
+    width: 48px;
+  }
+
+  /* line 72, ../sass/media.scss */
+  header .phone {
+    width: 485px;
+  }
+  /* line 74, ../sass/media.scss */
+  header .phone:before {
+    top: 65px;
+    left: 67px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /* line 83, ../sass/media.scss */
+  header .phone_back {
+    min-height: 0;
+  }
+
+  /* line 86, ../sass/media.scss */
+  body {
+    font-size: 20px;
+  }
+
+  /* line 90, ../sass/media.scss */
+  header .phone_back {
+    padding: 130px 0 0 80px;
+  }
+  /* line 93, ../sass/media.scss */
+  header .phone {
+    background-position: 50px 50px;
+  }
+  /* line 95, ../sass/media.scss */
+  header .phone:before {
+    position: relative;
+    top: 50px;
+    left: 50px;
+  }
+
+  /* line 102, ../sass/media.scss */
+  .section1 .part {
+    width: 95%;
+  }
+  /* line 104, ../sass/media.scss */
+  .section1 .part p {
+    font-size: 1.3em;
+  }
+
+  /* line 108, ../sass/media.scss */
+  header .phone_back {
+    min-height: 350px;
+  }
+
+  /* line 111, ../sass/media.scss */
+  footer ul {
+    margin: 15px 0;
+  }
+  /* line 113, ../sass/media.scss */
+  footer ul a {
+    font-size: 1.35em;
+  }
+  /* line 116, ../sass/media.scss */
+  footer ul li {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    line-height: 60px;
+  }
+
+  /* line 124, ../sass/media.scss */
+  .section2 p {
+    font-size: 0.9em;
+  }
+  /* line 127, ../sass/media.scss */
+  .section2 .side {
+    width: 100%;
+  }
+  /* line 130, ../sass/media.scss */
+  .section2 .left.side {
+    top: -15px;
+  }
+  /* line 133, ../sass/media.scss */
+  .section2 .right.side {
+    top: 25px;
+    position: relative;
+  }
+  /* line 137, ../sass/media.scss */
+  .section2 input[type="text"] {
+    width: 60%;
+  }
+
+  /* line 141, ../sass/media.scss */
+  header .phone {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+  }
+  /* line 143, ../sass/media.scss */
+  header .phone:before {
+    top: 40px;
+    left: 40px;
+    width: 164px;
+  }
+
+  /* line 150, ../sass/media.scss */
+  .section3 h3, .section3 h4 {
+    font-size: 0.9em;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /* line 159, ../sass/media.scss */
+  header .phone {
+    -webkit-filter: blur(2.5px);
+    -moz-filter: blur(2.5px);
+    -o-filter: blur(2.5px);
+    -ms-filter: blur(2.5px);
+    filter: blur(2.5px);
+    background-position: 100px 100px;
+  }
+  /* line 163, ../sass/media.scss */
+  header .phone_back {
+    padding: 100px 0 0 20px;
+    min-height: 400px;
+  }
+  /* line 167, ../sass/media.scss */
+  header .phone:before {
+    position: relative;
+    top: 100px;
+    left: 100px;
+  }
+
+  /* line 174, ../sass/media.scss */
+  .section2 .content {
+    width: 90%;
+    bottom: 0;
+    top: 45px;
+  }
+  /* line 179, ../sass/media.scss */
+  .section2 .right iframe {
+    width: 420px;
+    height: 240px;
+  }
+  /* line 183, ../sass/media.scss */
+  .section2 input[type="text"] {
+    margin-left: -7px;
+  }
+
+  /* line 187, ../sass/media.scss */
+  body {
+    font-size: 22px;
+  }
+
+  /* line 190, ../sass/media.scss */
+  .section1 .part p {
+    font-size: 1.3em;
+  }
+
+  /* line 193, ../sass/media.scss */
+  footer ul a {
+    font-size: 1.4em;
+  }
+
+  /* line 196, ../sass/media.scss */
+  header .phone:before {
+    position: relative;
+    top: 90px;
+    left: 90px;
+  }
+
+  /* line 202, ../sass/media.scss */
+  .section3 h3, .section3 h4 {
+    font-size: 0.8em;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /* line 210, ../sass/media.scss */
+  .section2 .right iframe {
+    width: 380px;
+    height: 220px;
+  }
+
+  /* line 214, ../sass/media.scss */
+  .section1 .part p {
+    font-size: 1.35em;
+  }
+
+  /* line 217, ../sass/media.scss */
+  body {
+    font-size: 24px;
+    overflow: scroll;
+  }
+
+  /* line 222, ../sass/media.scss */
+  header .phone_back {
+    min-height: 480px;
+  }
+
+  /* line 225, ../sass/media.scss */
+  footer ul a {
+    font-size: 1.05em;
+  }
+
+  /* line 228, ../sass/media.scss */
+  .section3 .image {
+    width: 47px;
+  }
+
+  /* line 231, ../sass/media.scss */
+  header .phone {
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+  }
+}
